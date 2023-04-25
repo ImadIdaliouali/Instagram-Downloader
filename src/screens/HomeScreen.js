@@ -14,10 +14,14 @@ const HomeScreen = () => {
 
     const getPostData = () => {
         setIsLoading(true);
-        getData(link).then(response => {
-            setPost(response.data.graphql);
-            setIsLoading(false);
-        });
+        getData(link)
+            .then(response => {
+                setPost(response.data.graphql);
+            })
+            .catch(error => alert(error))
+            .finally(() => {
+                setIsLoading(false);
+            });
     }
 
     return (
