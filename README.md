@@ -8,9 +8,8 @@ expo start
 ```
 
 ## ScreenShots
-<img src="./assets/screenshot/one.jpg" height="650">
-<img src="./assets/screenshot/two.jpg" height="650">
-
+<img align="left" src="./assets/screenshot/one.jpg" height="650">
+<img align="right" src="./assets/screenshot/two.jpg" height="650">
 
 ## Links
 - 📫 How to reach me **imadidaliouali@gmail.com**
