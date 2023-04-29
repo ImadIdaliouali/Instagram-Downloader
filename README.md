@@ -8,8 +8,10 @@ expo start
 ```
 
 ## ScreenShots
-<img align="left" src="./assets/screenshot/one.jpg" height="650">
-<img align="right" src="./assets/screenshot/two.jpg" height="650">
+<div style="display: flex;justify-content: space-between">
+    <img src="./assets/screenshot/one.jpg" height="650">
+    <img src="./assets/screenshot/two.jpg" height="650">
+</div>
 
 ## Links
 - 📫 How to reach me **imadidaliouali@gmail.com**
